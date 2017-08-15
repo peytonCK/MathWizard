@@ -13,6 +13,8 @@ let server = http.createServer(function(req, res) {
 		require('./views/factorial-node').get(req, res);
 	} else if (req.requrl.pathname === '/fibonacci') {
 		require('./views/fibo-node').get(req, res);
+	} else if (req.requrl.pathname === '/fibonacci2') {
+		require('./views/fibo2-node').get(req, res);
 	} else if (req.requrl.pathname === '/mult') {
 		require('./views/mult-node').get(req, res);
 	} else {
