@@ -1,0 +1,25 @@
+{
+  "name": "math-wizard",
+  "version": "1.0.0",
+  "description": "Math wizard",
+  "main": "htutil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peytonCK/MathWizard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peytonCK/MathWizard/issues"
+  },
+  "homepage": "https://github.com/peytonCK/MathWizard#readme",
+  "devDependencies": {
+    "connect": "^3.6.3",
+    "morgan": "^1.8.2",
+    "serve-favicon": "^2.4.3"
+  }
+}
